@@ -41,7 +41,7 @@ if (empty($_POST['content']) and isset($_POST['word'])) {
             <div class="col-lg-6 col-md-8 col-sm-12 text-center">
                 <div>
                 <h3><?php echo $content ?></h3>
-                <h5 class="text-danger"><?php echo "La stringa contiene $contentLen caratteri" ?></h5>
+                <h5 class="text-danger"><?php echo "The string contains $contentLen letters" ?></h5>
                 <h3><?php echo $contentBan ?></h3>
             </div>
             </div>
